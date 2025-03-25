@@ -16,7 +16,7 @@ public class App
         System.out.println("This is a test for maven build");
 
         try {
-            File file = new File("data.txt"); // Adjust the path if necessary
+            File file = new File("C:\\Users\\simon\\Desktop\\mavenTxt.txt"); // Adjust the path if necessary
             Scanner scanner = new Scanner(file);
 
             while (scanner.hasNextLine()) {
